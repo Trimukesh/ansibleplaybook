@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
  test:
    name: ansibleplaybook
-   runs-on: localhost
+   runs-on: self-hosted
    steps:
       - uses: actions/checkout@v2
       - name: actions
